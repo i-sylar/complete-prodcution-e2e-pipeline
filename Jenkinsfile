@@ -16,7 +16,7 @@ pipeline{
 
         stage("Checkout from SCM"){
             steps {
-                git branch: 'main', credentialsIds: 'github', url: 'https://github.com/i-sylar/complete-prodcution-e2e-pipeline'
+                git branch: 'main', url: 'https://github.com/i-sylar/complete-prodcution-e2e-pipeline'
             }
 
         }
